@@ -68,6 +68,5 @@ contract Primitivos {
     uint public defaultUint; // 0
     int public defaultInt; // 0
     address public defaultAddr; // 0x0000000000000000000000000000000000000000
-    bytes public defaultBytes; // 0x
     bytes1 public defaultBytes1; // 0x00
 }
