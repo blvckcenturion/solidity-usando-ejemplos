@@ -5,8 +5,8 @@ contract Immutable {
     /*
         Las variables inmutables son similares a las constantes.
         Con una diferencia principal, las variables constantes no pueden ser asignadas después de su declaración.
-        Sin embargo las variables inmutables pueden ser asignadas después de su declaración, unicamente haciendo uso del constructor.
-        Solamente se puede realizar una asignacion a un valor en el constructor si la variable inmutable no tiene un valor inicial definido en su declaracion.
+        Sin embargo las variables inmutables pueden ser asignadas después de su declaración.
+        Solamente se puede realizar una asignacion durante el despliegue del contrato a un valor en el constructor si la variable inmutable no tiene un valor inicial definido en su declaracion.
         Posterior a la asignación en el constructor, las variables inmutables no pueden ser modificadas.
     */
 
