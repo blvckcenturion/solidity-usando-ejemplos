@@ -13,10 +13,12 @@ contract Immutable {
     // Son declaradas haciendo uso de la palabra clave 'constant' despues del tipo de dato (address, uint, etc) y su visibilidad (public, private, etc).
     // La convencion es que el nombre de la variable inmutable sea escrito en mayusculas y haciendo uso de guiones bajos (_) para separar las palabras.
     address public immutable MY_ADDRESS;
-    uint public immutable MY_UINT = 0;
+    uint public immutable MY_UINT_1;
+    uint public immutable MY_UINT_2 = 2;
 
     constructor(uint _myUint) {
         MY_ADDRESS = msg.sender;
-        MY_UINT = _myUint; //ERROR: No se puede asignar un valor debido a que la misma ya cuenta con un valor inicial especificado en su declaracion.
+        MY_UINT_1 = _myUint;
+        // MY_UINT_2 = _myUint; //ERROR: No se puede asignar un valor debido a que la misma ya cuenta con un valor inicial especificado en su declaracion.
     }
 }

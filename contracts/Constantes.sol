@@ -14,5 +14,5 @@ contract Constantes {
     address public constant MY_ADDRESS = 0x777788889999AaAAbBbbCcccddDdeeeEfFFfCcCc;
     uint public constant MY_UINT = 123;
 
-    MY_ADDRESS = address(0); // ERROR: las constantes no pueden ser modificadas.
+    // MY_ADDRESS = address(0); // ERROR: las constantes no pueden ser modificadas.
 }
