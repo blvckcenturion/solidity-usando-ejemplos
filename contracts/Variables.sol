@@ -9,6 +9,7 @@ contract Variables {
     uint public num = 123;
 
     function doSomething() public view {
+        
         /**
          * Se considera variables locales a todas aquellas que son declaradas dentro de una funcion.
          * Las variables locales no se guardan en la blockchain.

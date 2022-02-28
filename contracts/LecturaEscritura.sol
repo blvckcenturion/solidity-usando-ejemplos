@@ -2,7 +2,8 @@
 pragma solidity ^0.8.10;
 
 contract SimpleStorage {
-    /* 
+
+    /**
      *   Para realizar una escritura o una actualizacion a una variable de estado, es necesario enviar una transacción.
      *   Mientras que para realizar una lectura de una variable de estado, se puede hacer de forma gratuita, sin necesidad de pagar una tasa de transaccion.
      */ 

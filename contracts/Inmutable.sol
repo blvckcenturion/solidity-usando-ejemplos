@@ -2,6 +2,7 @@
 pragma solidity ^0.8.10;
 
 contract Immutable {
+    
     /**
      * Las variables inmutables son similares a las constantes.
      * Con una diferencia principal, las variables constantes no pueden ser asignadas después de su declaración.
