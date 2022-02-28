@@ -4,7 +4,7 @@ pragma solidity ^0.8.10;
 contract Gas {
 
     /*
-        
+
         ¿Que es el gas?
         Se refiere a la unidad de medida para la cantidad de esfuerzo computacional requerido para ejecutar las operaciones de una transaccion.
 
