@@ -3,12 +3,12 @@ pragma solidity ^0.8.10;
 
 contract UnidadesEther {
 
-    /*
-        Las transacciones son pagadas con ether.
-        Similar a como 1 dolar es equivalente a 100 centavos.
-        1 ether es equivalente a 10**18 wei o 1 000 000 000 000 000 000 wei.
-        wei es la denominacion mas pequeña de un ether.
-    */
+    /**
+     * Las transacciones son pagadas con ether.
+     * Similar a como 1 dolar es equivalente a 100 centavos.
+     * 1 ether es equivalente a 10**18 wei o 1 000 000 000 000 000 000 wei.
+     * wei es la denominacion mas pequeña de un ether.
+     */
 
     // Denominaciones oficiales de ether.
     // Expresadas con sus respectivos apodos.
