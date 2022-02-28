@@ -4,6 +4,7 @@ pragma solidity ^0.8.10;
 import 'hardhat/console.sol';
 
 contract Constantes {
+    
     // Las constantes en solidity son variables que no pueden modificar su valor despues de ser declaradas.
     
     // Son declaradas haciendo uso de la palabra clave 'constant' despues del tipo de dato (address, uint, etc) y su visibilidad (public, private, etc).

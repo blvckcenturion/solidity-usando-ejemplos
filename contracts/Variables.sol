@@ -2,6 +2,7 @@
 pragma solidity ^0.8.10;
 
 contract Variables {
+    
     // Se considera variables de estado a todas aquellas que son declaradas afuera de una funcion.
     // Las variables de estado son almacenadas en la blockchain.
 
