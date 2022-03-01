@@ -1,6 +1,6 @@
 
 const main = async () => {
-  const Constantes = await hre.ethers.getContractFactory("EtherUnits");
+  const Constantes = await hre.ethers.getContractFactory("ImportandoEnums");
   const constantes = await Constantes.deploy();
 
   await constantes.deployed();
